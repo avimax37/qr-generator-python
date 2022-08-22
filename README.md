@@ -44,7 +44,28 @@ Use the link to download Visual Studio Code.
 
 [![Visual Studio Code][visual studio code-shield]][visual studio code-url]
 
+<!-- USAGE -->
 
+## Usage
+
+Open Command Prompt or Windows PowerShell to start.
+
+```python
+# get into python mode
+python
+
+# create a python script
+hello.py
+print("Hello World")
+
+# go to the file path
+cd <file path>
+
+# run the script
+python hello.py
+```
+
+VS Code or PyCharm can also be used.
 
 
 
