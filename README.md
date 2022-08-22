@@ -9,7 +9,17 @@ QR Code Generator is a simple tool where a URL is provided as an input and the a
 
 ![Python][python-shield]
 
+<!-- EXAMPLE -->
 
+## Example
+
+Input:
+```
+Please enter a URL:
+github.com/avimax37
+Please enter a filename:
+my-github
+```
 
 
 
