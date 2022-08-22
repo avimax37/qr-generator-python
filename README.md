@@ -69,6 +69,8 @@ VS Code or PyCharm can also be used.
 
 <!-- CONTACT -->
 
+## Contact
+
 Avinaba Bera
 
 [![Twitter][twitter-shield]][twitter-url]
