@@ -67,6 +67,14 @@ python hello.py
 
 VS Code or PyCharm can also be used.
 
+<!-- CODE -->
+
+## Code
+
+<!-- LOGIC -->
+
+## Logic
+
 <!-- CONTACT -->
 
 ## Contact
