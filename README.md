@@ -67,8 +67,12 @@ python hello.py
 
 VS Code or PyCharm can also be used.
 
+<!-- CONTACT -->
 
+Avinaba Bera
 
+[![Twitter][twitter-shield]][twitter-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- MARKDOWNS -->
 
@@ -80,3 +84,9 @@ VS Code or PyCharm can also be used.
 
 [visual studio code-shield]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [visual studio code-url]: https://code.visualstudio.com/download
+
+[twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-url]: https://twitter.com/IainSchneider
+
+[linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/avinaba-bera
