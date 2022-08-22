@@ -76,6 +76,12 @@ Avinaba Bera
 [![Twitter][twitter-shield]][twitter-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- PROJECT LINKS -->
+
+## Project Links
+
+[![Github][github-shield]][github-url]
+
 <!-- MARKDOWNS -->
 
 [python-shield]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
@@ -92,3 +98,6 @@ Avinaba Bera
 
 [linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/avinaba-bera
+
+[github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/avimax37/qr-generator-python
