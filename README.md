@@ -21,6 +21,12 @@ Please enter a filename:
 my-github
 ```
 
+Output:
+```
+Your QR is generated
+```
+
+Here we will get the QR code in a **`.png`** file named **`my-github`**.
 
 
 

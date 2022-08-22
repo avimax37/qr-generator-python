@@ -10,8 +10,9 @@ if user_url.find(".") != -1:
     file_name = input()
 
     url = pyqrcode.create(user_url)
-
     url.png(f"{file_name}.png", scale = 8)
+
+    print("Your QR is generated.")
 else:
     print("Please enter a valid URl")
 
