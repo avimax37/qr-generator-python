@@ -63,6 +63,12 @@ cd <file path>
 
 # run the script
 python hello.py
+
+# install pyqrcode module
+pip install pyqrcode
+
+# install pypng module
+pip install pypng
 ```
 
 VS Code or PyCharm can also be used.
@@ -71,9 +77,67 @@ VS Code or PyCharm can also be used.
 
 ## Code
 
+So first we are going to import **`pyqrcode`** and **`png`** module.
+```python
+from pyqrcode import QRCode
+```
+
+This function will return a **`QRCode`** object.
+
+Then we ask the user to enter a URL.
+
+```python
+print("Please enter a URL:")
+user_url = input()
+```
+Here, as usual, we are making use of the **`input()`** function to get the input from the user in form of a string  and store it's value into the **`user_url`** variable.
+
+```python
+if user_url.find(".") != -1:
+```
+
+Here we are checking if the input string contains **`.`** or not. If it contains **`.`**, then it is considered as a valid url and we move to the next step.
+
+Then we ask the user to enter a filename for the QR Code png file.
+
+```python
+print("Please enter a filename:")
+file_name = input()
+```
+
+Now we create the QR Code.
+
+```python
+url = pyqrcode.create(user_url)
+url.png(f"{file_name}.png", scale = 8)
+```
+
+This **`.create()`** function will create a QR Code of the url which was given by the user as input. Then the **`.png()`** function will create a **`.png`** file with a filename also given by the user and save it.
+
+Now a confirmation message is generated.
+
+```python
+print("Your QR is generated.")
+```
+
+If the input string does not contain **`.`**, then it is considered as an invalid url and we get out of the loop with a warning message.
+
+```python
+else:
+     print("Please enter a valid URL.")
+```
+
 <!-- LOGIC -->
 
 ## Logic
+
+Let's consider the input is **`github.com/avimax37`**, so when we write **`url = pyqrcode.create(user_url)`**, our **`.create()`** function will create the QR for the url given by the user. Then **`.png()`** function will generate the **`.png`** file and save it with the filename given by the user.
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See **`LICENSE.md`** for more information.
 
 <!-- CONTACT -->
 
